@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('Charity water canva.png') center center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin-left: auto;
+  text-align: right;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.yellow {
+  color: #ffcc00;
+}
+
+.teal {
+  color: #00ffc3;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #ffffffcc;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #1da1f2;
+  color: white;
+  font-weight: bold;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0d8de1;
+}
+
+.logo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  z-index: 2;
+}
