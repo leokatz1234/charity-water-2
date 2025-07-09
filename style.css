@@ -10,7 +10,7 @@ body, html {
   background-color: #000;
 }
 
-.hero {
+.container {
   position: relative;
   height: 100vh;
   background: url('Screenshot 2025-07-01 190443.png') center center / cover no-repeat;
